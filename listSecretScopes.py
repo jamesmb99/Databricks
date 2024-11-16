@@ -1,6 +1,6 @@
 # Databricks notebook source
 # DBTITLE 1,List Secret Scopes
-class listSecretScopes:
+class ListSecretScopes:
   
   def __init__(self):
     
@@ -25,4 +25,4 @@ class listSecretScopes:
 
 # COMMAND ----------
 
-listSecretScopes()
+ListSecretScopes()
