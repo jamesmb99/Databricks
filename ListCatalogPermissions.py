@@ -63,3 +63,9 @@ class ListCatalogPermissions():
 # Instantiate Permissions class and display permissions for all catalogs
 permissions = ListCatalogPermissions()
 permissions.display_all_catalog_permissions()
+
+# COMMAND ----------
+
+catalog_name = "<name of catalog>"
+catalog_permissions = ListCatalogPermissions()
+catalog_permissions.display_permissions(catalog_name)
